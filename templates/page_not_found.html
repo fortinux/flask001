@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <title>Página principal</title>
+    <meta name="description" content="Página principal">
+    <meta name="keywords" content="HTML template - plantilla" >
+</head>
+<body>
+    {% extends "base.html" %}
+    {% block title %}404{% endblock %}
+    {% block content %}
+    <h2>404</h2>
+   
+    <main>
+      <h1 class="visually-hidden">Heroes examples</h1>
+      <div class="px-4 py-5 my-5 text-center">
+        <img
+          src="404.png"
+          alt=""
+
+        />
+        <h1 class="display-5 fw-bold text-body-emphasis">404</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Página no existente
+          </p>
+          
+        </div>
+      </div>
+    {% endblock %}
+</body>
+</html>
